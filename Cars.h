@@ -1,11 +1,4 @@
-#pragma once
-#include <SFML/Graphics.hpp>
-#include <string>
-#include <random>
-#include <Windows.h>
-#include <cstring>
-#include "Traffic_Signal.h"
-using namespace std;
+
 
 
 sf::Clock Main_Clock;
