@@ -69,6 +69,7 @@ void PeekHrsTiming(sf::RenderWindow& window, bool& PeekTime, sf::Clock& Main_Clo
             timeString = std::to_string(hrs) + ":" + (min < 10 ? "0" + std::to_string(min) : std::to_string(min)) + " AM";
 
             // Increment hours when minutes exceed 59
+		
             if (min == 59)
             {
                 min = 0;
