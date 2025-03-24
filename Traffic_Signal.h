@@ -11,6 +11,7 @@ public:
 
 	sf::CircleShape red, yellow, green;
 
+
 public:
 
 	Traffic_Signal()
