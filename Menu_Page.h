@@ -13,6 +13,7 @@ public:
     // Create a window
         sf::RenderWindow window(sf::VideoMode(640, 640), "Smart Traffix");
 
+
         // Load background texture
         sf::Texture backgroundTexture;
         if (!backgroundTexture.loadFromFile("Accessories/Main Page.png")) {
