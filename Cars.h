@@ -12,6 +12,7 @@ sf::Clock Main_Clock;
 
 bool AvoidTB = false, AvoidLR = false, AvoidBT = false, AvoidRL = false;            //      Some Priority Bools
 
+
 /////////////////////////////////////////////////////           Cars arriving Clocks
 
 sf::Clock lightVehicleClockTB, heavyVehicleClockTB, emergencyVehicleClockTB, lightVehicleClockLR, heavyVehicleClockLR, emergencyVehicleClockLR;
