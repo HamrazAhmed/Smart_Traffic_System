@@ -15,6 +15,7 @@ const wchar_t* pipeName = L"\\\\.\\pipe\\challan_pipe";
 
 
 
+
 void Traffic_Change(int& turn, Traffic_Signal*& Signal)
 {
     while (Main_Clock.getElapsedTime().asSeconds() < 300)
