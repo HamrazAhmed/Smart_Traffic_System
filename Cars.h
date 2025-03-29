@@ -16,6 +16,7 @@ bool AvoidTB = false, AvoidLR = false, AvoidBT = false, AvoidRL = false;        
 /////////////////////////////////////////////////////           Cars arriving Clocks
 
 sf::Clock lightVehicleClockTB, heavyVehicleClockTB, emergencyVehicleClockTB, lightVehicleClockLR, heavyVehicleClockLR, emergencyVehicleClockLR;
+
 sf::Clock lightVehicleClockBT, heavyVehicleClockBT, emergencyVehicleClockBT, lightVehicleClockRL, heavyVehicleClockRL, emergencyVehicleClockRL;
 
 bool LaneTB = false;                        /////////           Lane Top_To_Bottom mein gari kharab hone pr on hoga
