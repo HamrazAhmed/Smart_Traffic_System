@@ -5,7 +5,6 @@
 
 class Traffic_Signal
 {
-
 //____
 public:
 
