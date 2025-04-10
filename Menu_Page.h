@@ -5,14 +5,12 @@ class Menu
 {
 
 public:
-
 	void present()
 	{
         ////////////////////////////////////////////////////////////
 
     // Create a window
         sf::RenderWindow window(sf::VideoMode(640, 640), "Smart Traffix");
-
 
         // Load background texture
         sf::Texture backgroundTexture;
