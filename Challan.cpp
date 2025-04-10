@@ -8,9 +8,6 @@ using namespace std;
 
 const wchar_t* pipeName = L"\\\\.\\pipe\\challan_pipe";
 
-
-
-
 void backgroundScene(sf::Texture& backgroundTexture, sf::Sprite& backgroundSprite, sf::RenderWindow& window, sf::Font& font, sf::Text& heading, sf::Texture& TableTexture, sf::Sprite& TableSprite)
 {
     if (!backgroundTexture.loadFromFile("C:/Users/Salman Ahmed/Documents/SFML/Accessories/PBG.jpg")) { // Replace with your background image path
