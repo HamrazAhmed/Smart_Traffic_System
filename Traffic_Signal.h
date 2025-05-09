@@ -7,7 +7,6 @@ class Traffic_Signal
 {
 //____
 public:
-
 	sf::CircleShape red, yellow, green;
 
 public:
