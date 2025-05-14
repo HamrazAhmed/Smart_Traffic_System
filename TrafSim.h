@@ -11,7 +11,6 @@
 
 std::mutex mtx;
 
-
 const wchar_t* pipeName = L"\\\\.\\pipe\\challan_pipe";
 
 
