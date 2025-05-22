@@ -4,6 +4,7 @@
 #include<Windows.h>
 #include<string.h>
 #include<vector>
+
 using namespace std;
 
 const wchar_t* pipeName = L"\\\\.\\pipe\\challan_pipe";
